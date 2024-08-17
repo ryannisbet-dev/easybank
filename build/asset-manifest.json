@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5fff307e.chunk.css",
+    "main.js": "/static/js/main.ca1ac358.chunk.js",
+    "main.js.map": "/static/js/main.ca1ac358.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9e73c091.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9e73c091.js.map",
+    "static/js/2.def97157.chunk.js": "/static/js/2.def97157.chunk.js",
+    "static/js/2.def97157.chunk.js.map": "/static/js/2.def97157.chunk.js.map",
+    "static/js/3.ee739806.chunk.js": "/static/js/3.ee739806.chunk.js",
+    "static/js/3.ee739806.chunk.js.map": "/static/js/3.ee739806.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.5fff307e.chunk.css.map": "/static/css/main.5fff307e.chunk.css.map",
+    "static/js/2.def97157.chunk.js.LICENSE.txt": "/static/js/2.def97157.chunk.js.LICENSE.txt",
+    "static/media/Index.scss": "/static/media/bg-intro-desktop.8be308fd.svg",
+    "static/media/icon-api.74c8ad17.svg": "/static/media/icon-api.74c8ad17.svg",
+    "static/media/icon-budgeting.ad716997.svg": "/static/media/icon-budgeting.ad716997.svg",
+    "static/media/icon-facebook.1e9b3338.svg": "/static/media/icon-facebook.1e9b3338.svg",
+    "static/media/icon-hamburger.b0d311fe.svg": "/static/media/icon-hamburger.b0d311fe.svg",
+    "static/media/icon-instagram.54d3962e.svg": "/static/media/icon-instagram.54d3962e.svg",
+    "static/media/icon-onboarding.d74aed64.svg": "/static/media/icon-onboarding.d74aed64.svg",
+    "static/media/icon-online.b0622b15.svg": "/static/media/icon-online.b0622b15.svg",
+    "static/media/icon-pinterest.45264b1d.svg": "/static/media/icon-pinterest.45264b1d.svg",
+    "static/media/icon-twitter.01a8907d.svg": "/static/media/icon-twitter.01a8907d.svg",
+    "static/media/icon-youtube.7d6960fb.svg": "/static/media/icon-youtube.7d6960fb.svg",
+    "static/media/image-confetti.67921b11.jpg": "/static/media/image-confetti.67921b11.jpg",
+    "static/media/image-currency.32459277.jpg": "/static/media/image-currency.32459277.jpg",
+    "static/media/image-mockups.48d35b17.png": "/static/media/image-mockups.48d35b17.png",
+    "static/media/image-plane.03db115d.jpg": "/static/media/image-plane.03db115d.jpg",
+    "static/media/image-restaurant.1951b576.jpg": "/static/media/image-restaurant.1951b576.jpg",
+    "static/media/logo-white.23ed9c3e.svg": "/static/media/logo-white.23ed9c3e.svg",
+    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9e73c091.js",
+    "static/js/2.def97157.chunk.js",
+    "static/css/main.5fff307e.chunk.css",
+    "static/js/main.ca1ac358.chunk.js"
+  ]
+}

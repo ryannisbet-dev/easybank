@@ -1,0 +1,157 @@
+@import '../../Sass/Variables.scss';
+
+
+header {
+    display: flex;
+    justify-content: center;
+    flex: 1 100%;
+    align-items: baseline;
+    background: white;
+    position: relative;
+    z-index: 2;
+
+        .Logo {
+            align-self: flex-start;
+            padding: 1%;
+            z-index:2;
+        }
+
+        nav {
+            align-self: center;
+            flex: 1;
+            z-index:2;
+           
+        a {
+            color: $gray;
+            cursor: pointer;
+          
+        }
+        
+        ul {
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            width: 30%;
+            margin-left: 35%;
+
+                li {
+                    width: 20%;
+                    text-align: center;
+                   
+
+                    :hover {
+                            border-bottom: $lime-green 3px solid;
+                            padding-bottom: 25px;
+                    }
+                }
+            }
+        }
+
+        .MobileNavigationIcon,.MobileNavigation {
+            display: none;
+        }
+
+        button{
+            margin: 1%;
+            width: 8%;
+            border: none;
+            background-image: linear-gradient(to right, $lime-green, $bright-cyan);
+            padding: 10px;
+            color: $white;
+            font-weight: 700;
+            border-radius: 20px;
+            cursor: pointer;
+            z-index:2;
+        }
+
+        button:hover {
+            background-image: linear-gradient(to right, hsl(136, 65%, 67%), hsl(192, 73%, 73%));
+        }
+    
+}
+
+
+//Tablet 
+
+@media only screen and (min-width : 768px) and (max-width : 1025px) {
+
+    header {
+        .Logo {
+            width: 10%;
+        }
+
+        nav {
+            align-self: center;
+            flex: 1;
+            z-index:2;
+           
+        a {
+            color: $gray;
+            cursor: pointer;
+          
+        }
+        
+        ul {
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            width: 60%;
+            margin-left: 25%;
+
+                li {
+                    width: 20%;
+                    text-align: center;
+                   
+
+                    :hover {
+                            border-bottom: $lime-green 3px solid;
+                            padding-bottom: 25px;
+                    }
+                }
+            }
+        }
+
+        button{
+            display: none;
+        }
+    
+    }  
+  
+}
+
+
+
+//Mobile 
+
+
+@media only screen and (min-width : 300px) and (max-width : 767px) {
+
+.DesktopNavigation{
+    display: none;
+}
+
+button {
+    display: none;
+}
+
+
+    
+
+header{
+    .MobileNavigationIcon{
+        display: inline-block;
+            img{
+                float: right;
+                padding: 5%;
+            }
+    }
+
+    .MobileNavigationContainer{
+        display: block;
+        width: 100%;
+    }
+    
+}
+
+  
+}
